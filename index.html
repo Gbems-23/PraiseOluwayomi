@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SCHOLARSHIP AID</title>
+    <Link rel="stylesheet" href="/STYLE.CSS/homepage.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <img src="/IMAGES/LOGO.png" alt="">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="sign up.html">SIGN-UP</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="contact.html">FOR ENQUIRIES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>LIGHT WAY LEARNING</h1>
+        <p>  WE LEARN AND IMPACT! </p>
+         </div>
+    </section>
+
+<!---------course------>
+<section class="COURSE">
+    <h1> Courses We Offer</h1>
+    <p> Light way university offers a variety of tech courses to empower young adults with the skills to be a difference in their world.</p>
+<div class="row">
+    <div class="course-column">
+        <h3>COURSES</h3>
+        <p>-WEB DEVELOPMENT<br>
+            -DATA ANALYSIS<br>
+            -CONTENT WRITING<br>
+            -DIGITAL MARKETING <br>
+            -PYTHON PROGRAMMING<br>
+            </p>
+    </div>
+    <div class="course-column">
+        <h3>DEGREE</h3>
+        <p>-Beginner<br>
+           -Boot camp<br>
+            -Advance<br>
+            </p>
+    </div>
+    <div class="course-column">
+        <h3>SCHOLARSHIP OFFERS</h3>
+        <p> -BSC. MERIT<br>
+            -NATIONAL SCHOLARSHIP SCHEME<br>
+            -FULL SCHORLARSHIP<br>
+             -STUDENT LOAN<br>
+             -CWW TECH AFRICA {AFILIATE}<br>
+            </p>
+    </div>
+
+    </section>
+</div>
+</section>
+
+
+    <!---------About us------>
+    <section class="about">
+        <h1>ABOUT US</h1>
+        <P>
+            Our goal is to equip every young adult across the globe with tech skills,
+             to make a difference in their world, against all financial odds.
+        </P>
+        <div class="row">
+            <div class="about-column">
+                <img src="/IMAGES/founder.jpg" width="100%;">
+                <div class="desc">FOUNDER</div>
+                </div>
+                    <div class="about-column">
+                        <img src="/IMAGES/black.jpg" width="100%;">
+                        <div class="desc">CONDUCIVE LEARNING ENVIRONMENT</div>
+                        </div>
+                        <div class="about-column">
+                            <img src="/IMAGES/quote.jpg" width="100%;">
+                            <div class="desc">FOUNDER'S FAVOURITE QUOTE</div>
+                        </div>
+    </section>
+
+<!--------------ENROLL------------>
+<section class="Enroll">
+    <h1>
+        It starts with a decision.<br>
+        Enroll for our various online courses<br>
+        anywhere from the world
+    </h1>
+    <a href="sign up.html">ENROLL</a>
+</section>
+
+<!-------------footer------------>
+<section class="footer"> 
+    <h4>FOR ENQUIRIES</h4>
+    <p>contact us on these platforms</p>
+
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Let's kicstart your tech journey</p>
+</section>
+
+    <!-------------javascript for menu for smaller screens------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
